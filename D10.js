@@ -466,9 +466,9 @@ function svuotare() {
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
   
 */
-function ()=>{
-const tr1 = document.querySelectorAll(tr);
-tr1.className="TEST"
+function classAdd() {
+  const tr1 = document.querySelectorAll(tr);
+  tr1.className = "TEST";
 }
 // [EXTRA] JS Avanzato
 
