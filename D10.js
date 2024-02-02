@@ -443,6 +443,7 @@ function linkcolored() {
   links.forEach(function (a) {
     links.style.backgroundColor = "red";
   });
+
   linkcolored();
 }
 /* ESERCIZIO 24
@@ -465,8 +466,10 @@ function svuotare() {
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
   
 */
+function ()=>{
 const tr1 = document.querySelectorAll(tr);
-
+tr1.className="TEST"
+}
 // [EXTRA] JS Avanzato
 
 /* ESERCIZIO 27
